@@ -1,0 +1,8 @@
+services:
+  smtp2slack:
+    build:
+      dockerfile: Containerfile
+    ports:
+      - "1025:1025"
+    environment:
+      SLACK_WEBHOOK_URL: "${SLACK_WEBHOOK_URL}"
