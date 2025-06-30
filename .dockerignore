@@ -1,0 +1,10 @@
+.direnv
+.mypy_cache
+.ruff_cache
+.vscode
+.env
+.envrc
+.compose.yml
+Containerfile
+__pycache__
+*.pyc
